@@ -5,7 +5,7 @@ import constants as const
 def compile_exe() -> None:   
     cleanup()
     subprocess.call(["pyinstaller", "installer.spec"])
-    shutil.move(f"dist/main/{const.SCRIPT_NAME}.exe", f"{const.SCRIPT_NAME}.exe")
+    shutil.move(f"dist/{const.SCRIPT_NAME}.exe", f"{const.SCRIPT_NAME}.exe")
     cleanup()
 
 def cleanup() -> None:

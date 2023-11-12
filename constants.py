@@ -1,1 +1,1 @@
-SCRIPT_NAME = "Rosh Timer"
+SCRIPT_NAME = "RoshTimer"
